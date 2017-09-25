@@ -9,7 +9,7 @@ Chapter 1. Arrays and Strings
 
 public class CheckPermutation {
 
-    private static boolean IsAnagram(String one, String two) {
+    private static boolean isAnagram(String one, String two) {
 
         if(one.length() != two.length()) {
             return false;
@@ -36,7 +36,7 @@ public class CheckPermutation {
     private static void test(String one, String two) {
         System.out.println("One: " + one);
         System.out.println("Two: " + two);
-        System.out.println("Is anagram: " + IsAnagram(one, two) + "\n");
+        System.out.println("Is anagram: " + isAnagram(one, two) + "\n");
     }
 
     public static void main(String[] args) {
