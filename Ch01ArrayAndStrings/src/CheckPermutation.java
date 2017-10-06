@@ -47,5 +47,6 @@ public class CheckPermutation {
         test("a", "a");
         test("", "");
         test(" ", " ");
+        test("doga", "god");
     }
 }
